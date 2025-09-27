@@ -366,7 +366,7 @@ if (!preloadFile) {
   
   if (machine === 'kniterate') { //new
     if (readlineSync.keyInYNStrict(chalk `{blue.bold \nWould you like to change any of the default settings for the waste section? (DEFAULT stitch number: 5, speed number: 400, roller advance: 150, rows: 40)}`)) {
-        keyInYNStrict //TODO: have rows as an option too //TODO: adjust for swgn2
+        // keyInYNStrict //TODO: have rows as an option too //TODO: adjust for swgn2
       let new_waste_stitch = readlineSync.question(chalk`{blue.italic \n(OPTIONAL: press Enter to skip this step)} {blue.bold What would you like to set the waste section stitch number as? }`, {
         defaultInput: -1,
         // limit: Number,
